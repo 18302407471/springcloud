@@ -1,4 +1,4 @@
-package com.cloud.ribbon.consumer.ribbonconsumer;
+package com.cloud.consumer.ribbonconsumer;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

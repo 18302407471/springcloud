@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class HelloController {
     @Autowired
     private HelloService helloService;
+
     @GetMapping("/hello")
     public String sayHello(String name){
         return helloService.sayHello() + " " + name;

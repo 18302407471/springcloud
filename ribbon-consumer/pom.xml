@@ -8,7 +8,7 @@
         <version>2.1.6.RELEASE</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.cloud.ribbon.consumer</groupId>
+    <groupId>com.cloud.consumer</groupId>
     <artifactId>ribbon-consumer</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>ribbon-consumer</name>

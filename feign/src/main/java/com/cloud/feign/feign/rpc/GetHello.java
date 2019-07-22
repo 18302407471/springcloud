@@ -6,5 +6,5 @@ import org.springframework.web.bind.annotation.GetMapping;
 @FeignClient(value = "ribbon-consumer")
 public interface GetHello {
     @GetMapping(value = "/hello?name=feign")
-    String sayHello();
+    public String sayHello();
 }
